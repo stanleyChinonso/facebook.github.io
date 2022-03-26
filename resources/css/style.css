@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: boty;
+    display: block;
+    height:0;
+    visibility: hidden;
+}
+
+
+.main-container {
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    -ms-flex-line-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 350%;
+    letter-spacing: 2px;
+    color: #3b5998;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 100%;
+    line-height:40px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-flex-line-pack: end;
+    width: 65%;
+    text-align: justify;
+    padding-left: 180px;
+    padding-bottom: 200px;
+}
+
+.form-container {
+    width: 35%;
+    margin-right: 70px;
+    height: 70vh
+}
+
+
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    -ms-flex-line-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0px;
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.form-group {
+    width: 90%;
+    margin-top: 30px;
+    
+}
+
+
+.pass-box {
+     margin-bottom: 30px;
+}
+
+input, button {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+
+
+button {
+    background-color: #3b5998;
+    border: none;
+    color: #fff;
+}
+
+
+.link-box, .link-box2 {
+    margin-top: 30px;
+    width: 70%;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 7px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    
+}
+
+.link-box2:active,
+.link-box2:hover {
+    background-color: #f4f4f4;
+    
+}
+
+.link-box2 {
+    background-color: #3e9353;
+}
+
+
+
+.link-box a, .link-box2 a {
+    text-decoration: none;
+    
+}
+
+
+.pass {
+    font-size: 80%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #3b5998;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+
+}
+
+.pass:active,
+.pass:hover {
+    color: #fff;
+}
+
+.btn {
+    font-size: 85%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.btn:active,
+.btn:hover {
+    color: #3e9353;
+}
+
+
+.para {
+    font-size: 70%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+

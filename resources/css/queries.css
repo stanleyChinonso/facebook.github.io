@@ -1,0 +1,196 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    
+    
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    body {
+        font-size: 18px;
+    }
+    
+    header {
+        width: 75%;
+        padding-left: 130px;
+    }
+    
+    .form-container {
+        margin-right: 50px;
+    }
+    
+    .link-box, .link-box2 {
+        margin-top: 20px;
+        width: 80%;
+
+    }
+    .para {
+    font-size: 65%;
+    
+}
+    h2 {
+    font-size: 90%;
+    line-height:38px;
+    word-spacing: 2px;
+    padding-right: 30px;
+}
+    
+    }
+    
+    @media only screen and (max-width: 821px) {
+        
+    header {
+        width: 75%;
+        padding-left: 80px;
+        width:100%;
+
+    }
+    .form-container {
+        width: 60%;
+        margin-right: 35px;
+    }
+   .para {
+    font-size: 60%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+        
+        
+    }
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    h2 {
+        font-size: 75%;
+        line-height:30px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width:100%;
+        padding-right: 10px;
+    }
+    
+     header {
+        width: 70%;
+        padding-left: 80px;
+         padding-left: 50px;
+    }
+    
+    
+    @media only screen and (max-width: 645px) {
+        body {
+            font-size: 16px;
+        }
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+        
+        body {
+            font-size: 18px;
+            height: 100vh;
+        }
+        
+        .main-container {
+            flex-direction: column;
+            justify-content: flex-start;
+
+            
+        } 
+        
+        header {
+            height: 40vh;
+            width: 100%;
+            padding-left: 100px;
+        
+        
+        }
+        
+        h1,h2 {
+            letter-spacing: 2px;
+            word-spacing: 3px
+            width: 100%;
+        } 
+        
+        .form-container {
+            height: 70vh;
+            padding-top: 0px;
+            width: 60%;
+    
+    
+        }
+        
+        
+        form {
+            height: 85%;
+        }
+    }
+    
+    
+
+/* Small phones: from 0 to 480px */
+    @media only screen and (max-width: 480px) {
+        body {
+            font-size: 18px;
+        }
+        header {
+            padding-left: 80px;
+    }
+        
+        form {
+            height: 80%;
+        }
+    
+@media only screen and (max-width: 397px) {
+    
+    body {
+        font-size: 15px;
+    }
+    
+    
+    .main-container {
+        align-items:  flex-start;
+        padding-left: 20px;
+        
+    }
+    
+    header {
+        padding-left: 0px;
+        justify-items:  flex-start;
+    
+    }
+    
+    .form-container {
+
+            width: 90%;
+    }
+    
+    input, button {
+        font-size: 70%;
+    }
+    
+   
+        }
+
+@media only screen and (max-width: 300px) {
+    body {
+        font-size: 13px:
+    }
+    
+    h1 {
+        font-size: 180%;
+    }
+    
+    h2 {
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-size: 65%;
+        line-height: 20px;
+    
+    }
+    
+    
+    
+            
+}
